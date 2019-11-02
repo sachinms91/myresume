@@ -853,6 +853,7 @@
               $('#message-warning').hide();
               $('#contactForm').fadeOut();
               $('#message-success').fadeIn();
+              
 
      }
  
@@ -869,6 +870,7 @@
        ev.preventDefault();
        var data = new FormData(form);
        ajax(form.method, form.action, data, success, error);
+       return false;
      });
    });
    
