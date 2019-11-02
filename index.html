@@ -690,7 +690,7 @@
             <div class="eight columns">
 
                <!-- form -->
-               <form action="" method="post" id="contactForm" name="Contact Form">
+               <form action="https://formspree.io/xoqabrna" method="post" id="contactForm" name="Contact Form">
 					<fieldset>
 
                   <div>
@@ -854,13 +854,13 @@
               $('#contactForm').fadeOut();
               $('#message-success').fadeIn();
               
-
+      form.reset();
      }
  
      function error() {
       // status.innerHTML = "Oops! There was a problem.";
       $('#image-loader').fadeOut();
-              $('#message-warning').html(msg);
+              $('#message-warning').html("Error in sending email");
               $('#message-warning').fadeIn();
      }
  
