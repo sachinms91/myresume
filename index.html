@@ -690,36 +690,36 @@
             <div class="eight columns">
 
                <!-- form -->
-               <form action="https://formspree.io/xoqabrna" method="post" id="contactForm" name="contactForm">
+               <form action="" method="post" id="contactForm" name="Contact Form">
 					<fieldset>
 
                   <div>
 						   <label for="contactName">Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName">
+						   <input type="text" value="" size="35" id="contactName" name="Contact Name">
                   </div>
 
                   <div>
 						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+						   <input type="text" value="" size="35" id="contactEmail" name="Contact Email">
                   </div>
 
                   <div>
 						   <label for="contactPhone">Mobile <span class="required">*</span></label>
-						   <input type="number" value="" size="10" id="contactPhone" name="contactPhone">
+						   <input type="number" value="" size="10" id="contactPhone" name="Contact Phone">
                   </div>
 
                   <div>
 						   <label for="contactSubject">Subject</label>
-						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+						   <input type="text" value="" size="35" id="contactSubject" name="Contact Subject">
                   </div>
 
                   <div>
                      <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea cols="50" rows="15" id="contactMessage" name="Contact Message"></textarea>
                   </div>
 
                   <div>
-                     <button class="submit" type="submit">Submit</button>
+                     <button class="submit" type="submit" id="my-form-button">Submit</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif">
                      </span>
@@ -828,6 +828,67 @@
    <script src="js/magnific-popup.js"></script>
    <script src="js/init.js"></script>
 
-</body>
 
+
+<script>
+   window.addEventListener("DOMContentLoaded", function() {
+ 
+     // get the form elements defined in your form HTML above
+     
+     var form = document.getElementById("contactForm");
+     var button = document.getElementById("my-form-button");
+     //var status = document.getElementById("my-form-status");
+    // var sucessmsg = document.getElementById("message-success");
+    // var errormsg =  document.getElementById("message-warning");
+ 
+     // Success and Error functions for after the form is submitted
+     
+     function success() {
+      //  form.reset();
+      //  button.style = "display: none ";
+      //  sucessmsg.dis
+       //status.innerHTML = "Thanks!";
+
+       $('#image-loader').fadeOut();
+              $('#message-warning').hide();
+              $('#contactForm').fadeOut();
+              $('#message-success').fadeIn();
+
+     }
+ 
+     function error() {
+      // status.innerHTML = "Oops! There was a problem.";
+      $('#image-loader').fadeOut();
+              $('#message-warning').html(msg);
+              $('#message-warning').fadeIn();
+     }
+ 
+     // handle the form submission event
+ 
+     form.addEventListener("submit", function(ev) {
+       ev.preventDefault();
+       var data = new FormData(form);
+       ajax(form.method, form.action, data, success, error);
+     });
+   });
+   
+   // helper function for sending an AJAX request
+ 
+   function ajax(method, url, data, success, error) {
+     var xhr = new XMLHttpRequest();
+     xhr.open(method, url);
+     xhr.setRequestHeader("Accept", "application/json");
+     xhr.onreadystatechange = function() {
+       if (xhr.readyState !== XMLHttpRequest.DONE) return;
+       if (xhr.status === 200) {
+         success(xhr.response, xhr.responseType);
+       } else {
+         error(xhr.status, xhr.response, xhr.responseType);
+       }
+     };
+     xhr.send(data);
+   }
+ </script>
+
+</body>
 </html>
