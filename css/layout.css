@@ -492,6 +492,29 @@ ul#nav li.current a {
   }
 }
 
+
+/* ------------------------------------------------------------------ */
+/* e. Certification Section
+/* ------------------------------------------------------------------ */
+#certifications {
+   background: #2b2b2b;
+   padding-top: 90px;
+   padding-bottom: 60px;
+ }
+ #certifications h1 {
+   font: 15px/24px "opensans-semibold", sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 48px;
+   color: #95a3a3;
+ }
+ 
+ /* Portfolio Content */
+ /* #certifications-wrapper .columns {
+   margin-bottom: 36px;
+ } */
+
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
