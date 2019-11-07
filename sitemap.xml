@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='sitemap.xsl'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://iamacloudgeek.in/Files/Sachin M S-CV-DotNet-Dev-5.8 exp.docx</loc>
+    <changefreq>Monthly</changefreq>
+    <priority>1</priority>
+    <lastmod>2019-11-07T17:04:54Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iamacloudgeek.in/Files/</loc>
+    <changefreq>Monthly</changefreq>
+    <priority>1</priority>
+    <lastmod>2019-11-07T17:04:54Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iamacloudgeek.in/Files/AWS Certified Developer - Associate certificate.pdf</loc>
+    <changefreq>Monthly</changefreq>
+    <priority>1</priority>
+    <lastmod>2019-11-07T17:04:54Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iamacloudgeek.in/Files/microsoft_transcript.pdf</loc>
+    <changefreq>Monthly</changefreq>
+    <priority>1</priority>
+    <lastmod>2019-11-07T17:04:54Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iamacloudgeek.in/Files/microsoft_transcript.pdf  </loc>
+    <changefreq>Monthly</changefreq>
+    <priority>1</priority>
+    <lastmod>2019-11-07T17:04:54Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iamacloudgeek.in/Files/HTML CSS JS.pdf</loc>
+    <changefreq>Monthly</changefreq>
+    <priority>1</priority>
+    <lastmod>2019-11-07T17:04:54Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iamacloudgeek.in/Files/ASP NET MCTS.pdf</loc>
+    <changefreq>Monthly</changefreq>
+    <priority>1</priority>
+    <lastmod>2019-11-07T17:04:54Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iamacloudgeek.in/Files/MCSD.pdf</loc>
+    <changefreq>Monthly</changefreq>
+    <priority>1</priority>
+    <lastmod>2019-11-07T17:04:54Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iamacloudgeek.in/Files/MCSA.pdf</loc>
+    <changefreq>Monthly</changefreq>
+    <priority>1</priority>
+    <lastmod>2019-11-07T17:04:54Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iamacloudgeek.in/Files/AWS_Edureka.pdf</loc>
+    <changefreq>Monthly</changefreq>
+    <priority>1</priority>
+    <lastmod>2019-11-07T17:04:54Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iamacloudgeek.in/Files/MS Azure_Edureka.pdf  </loc>
+    <changefreq>Monthly</changefreq>
+    <priority>1</priority>
+    <lastmod>2019-11-07T17:04:54Z</lastmod>
+  </url>
+</urlset>
