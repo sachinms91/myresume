@@ -62,7 +62,7 @@ header .banner-text {
   width: 100%;
 }
 header .banner-text h1 {
-  font: 90px/1.1em "opensans-bold", sans-serif;
+  font: 35px/1.1em "opensans-bold", sans-serif;
   color: #fff;
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
@@ -302,7 +302,7 @@ ul#nav li.current a {
 .work {
   margin-bottom: 48px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #838C95;
+  border-bottom: 1px solid #838c95;
 }
 #resume .info {
   font: 16px/24px "librebaskerville-italic", serif;
@@ -319,43 +319,41 @@ ul#nav li.current a {
   margin-top: 6px;
 }
 
-          /*(212121 */  
-          
+/*(212121 */
 
-
-          .myIframe {
-            position: relative;
-            padding-bottom: 56.25%;
-            padding-top: 30px;
-            height: 0;
-            overflow: auto; 
-            -webkit-overflow-scrolling:touch; //<<--- THIS IS THE KEY 
-            border: solid black 1px;
-       } 
-       .myIframe iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-       }
+.myIframe {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch; //<<--- THIS IS THE KEY
+  border: solid black 1px;
+}
+.myIframe iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 .skillset {
-   background-color: black;
-   color: white;
-   font-size: 2rem;
-   opacity: .8;
-   padding: 5px;
-   margin: 5px;
-   border-radius: 15px;
-   position: relative;
-   display: inline-block;
- }
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  opacity: 0.8;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 15px;
+  position: relative;
+  display: inline-block;
+}
 
- #skillsset-label {
-   font-size:5.0em; 
-   padding-bottom:30px;
- }
- /* .small-intro {
+#skillsset-label {
+  font-size: 5em;
+  padding-bottom: 30px;
+}
+/* .small-intro {
    background: #e8eaed;
    padding-top: 60px;
  }
@@ -541,26 +539,25 @@ ul#nav li.current a {
   }
 }
 
-
 /* ------------------------------------------------------------------ */
 /* e. Certification Section
 /* ------------------------------------------------------------------ */
 #certifications {
-   background: #2b2b2b;
-   padding-top: 90px;
-   padding-bottom: 60px;
- }
- #certifications h1 {
-   font: 15px/24px "opensans-semibold", sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 1px;
-   text-align: center;
-   margin-bottom: 48px;
-   color: #95a3a3;
- }
- 
- /* Portfolio Content */
- /* #certifications-wrapper .columns {
+  background: #2b2b2b;
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
+#certifications h1 {
+  font: 15px/24px "opensans-semibold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 48px;
+  color: #95a3a3;
+}
+
+/* Portfolio Content */
+/* #certifications-wrapper .columns {
    margin-bottom: 36px;
  } */
 
