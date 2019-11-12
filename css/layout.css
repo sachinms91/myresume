@@ -278,12 +278,12 @@ ul#nav li.current a {
   color: #313131;
 }
 
-#resume h1 {
+#resume h2 {
   font: 18px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-#resume h1 span {
+#resume h2 span {
   border-bottom: 3px solid #11abb0;
   padding-bottom: 6px;
 }
@@ -547,7 +547,7 @@ ul#nav li.current a {
   padding-top: 90px;
   padding-bottom: 60px;
 }
-#certifications h1 {
+#certifications h2 {
   font: 15px/24px "opensans-semibold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -570,7 +570,7 @@ ul#nav li.current a {
   padding-top: 90px;
   padding-bottom: 60px;
 }
-#portfolio h1 {
+#portfolio h2 {
   font: 15px/24px "opensans-semibold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -819,19 +819,19 @@ call-to-action .button {
   padding-top: 96px;
   padding-bottom: 66px;
 }
-#testimonials h1 {
+#testimonials h2 {
   font: 18px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;
 }
-#testimonials h1 span {
+#testimonials h2 span {
   display: none;
 }
 #testimonials .header-col {
   padding-top: 9px;
 }
-#testimonials .header-col h1:before {
+#testimonials .header-col h2:before {
   font-family: "FontAwesome";
   content: "\f10d";
   padding-right: 10px;
@@ -1006,17 +1006,17 @@ call-to-action .button {
   color: #fff;
 }
 
-#contact h1 {
+#contact h2 {
   font: 18px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #ebeeee;
   margin-bottom: 6px;
 }
-#contact h1 span {
+#contact h2 span {
   display: none;
 }
-#contact h1:before {
+#contact h2:before {
   font-family: "FontAwesome";
   content: "\f0e0";
   padding-right: 10px;
